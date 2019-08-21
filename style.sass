@@ -1,9 +1,52 @@
-$rojo: #e94822
-$font: Arial, Sans-serif
+$green: #12e6c8
+$lila: #a287f4
+$grey: #666666
+$dark-grey: #414141
+$font: 'Hepta Slab', serif
 
 body
-	background: $rojo
-
-h1
-	color: #fff
 	font-family: $font
+	padding: 0
+	margin: 0
+	font-size: 16px
+.header
+	background-color: $grey
+	padding: 30px 60px
+.header__logo
+	font-size: 3rem
+	color: #ffffff
+	text-decoration: none
+	font-weight: 600
+.header__logo:hover
+	color: $green
+.header__nav
+	margin-top: 30px
+	padding: 0
+	display: flex
+	justify-content: flex-start
+.header__link
+	font-size: 1.2rem
+	list-style: none
+	color: $lila
+	width: 20%
+	cursor: pointer
+.header__link--active
+	color: $green
+	text-decoration: underline wavy $green
+	font-weight: 600
+.content
+	background-color: $dark-grey
+	padding: 50px 60px
+	display: flex
+	justify-content: flex-start
+.content__image
+	margin-right: 30px
+	width: 50%
+.content__text
+	color: $green
+	font-weight: 200
+	line-height: 1.4
+.content__title
+	font-size: 2rem
+	color: $lila
+	font-weight: 400
